@@ -1,0 +1,26 @@
+{
+  "name": "ylog",
+  "version": "1.0.0",
+  "description": "A simple mern stack blog app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "server": "nodemon -r esm server.js"
+  },
+  "author": "Mohamed Amine Boudagga",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
