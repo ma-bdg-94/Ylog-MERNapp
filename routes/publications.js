@@ -138,7 +138,7 @@ router.get('/:pubId', async (req, res) => {
     console.error(e.message)
 
     if (e.kind == 'ObjectId') {
-      return res.status(404).json({ msg: 'No publication found!' })
+      return res.status(404).json({ msg: 'No publications found!' })
     }
 
     res.status(500).send('Error 500! Something went wrong on the server')
